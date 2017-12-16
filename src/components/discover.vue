@@ -1,134 +1,112 @@
 <template>
-  <dic class="container">
-    <div class="row">
-      <div class="grid-options col-sm-3">
-
-        <h2 class="clearfix">Narrow your selection
-          <button type="button"
-        class="options-panel-toggle btn btn-primary pull-right" data-toggle="collapse" data-target="#options-panel">
-            <span class="icon fa fa-cog fa-2x"></span>
-          </button>
-        </h2>
-
-        <div id="options-panel" class="options-panel collapse">
-
-          <a class="btn btn-feature choose-clearance" href="#">
-            <span class="icon fa fa-tag fa-3x"></span>
-            <h3>Clearance Sale</h3>
-            <p>View clearance items</p>
-          </a>
-
-          <h3>Categories</h3>
-          <ul class="options-list options-categories">
-            <li><a href="#">Option 1</a></li>
-            <li><a href="#">Option 2</a></li>
-            <li><a href="#">Option 3</a></li>
-            <li><a href="#">Option 4</a></li>
-            <li><a href="#">Option 5</a></li>
-            <li><a href="#">Option 6</a></li>
-            <li><a href="#">Option 7</a></li>
-            <li><a href="#">Option 8</a></li>
-            <li><a href="#">Option 9</a></li>
-            <li><a href="#">Option 10</a></li>
-          </ul>
-
-          <h3>Brands</h3>
-          <ul class="options-list options-brands">
-            <li><a href="#">Option 1</a></li>
-            <li><a href="#">Option 2</a></li>
-            <li><a href="#">Option 3</a></li>
-            <li><a href="#">Option 4</a></li>
-            <li><a href="#">Option 5</a></li>
-            <li><a href="#">Option 6</a></li>
-            <li><a href="#">Option 7</a></li>
-            <li><a href="#">Option 8</a></li>
-            <li><a href="#">Option 9</a></li>
-            <li><a href="#">Option 10</a></li>
-          </ul>
-
-          <h3>Another Filter</h3>
-          <ul class="options-list options-other">
-            <li><a href="#">Option 1</a></li>
-            <li><a href="#">Option 2</a></li>
-            <li><a href="#">Option 3</a></li>
-            <li><a href="#">Option 4</a></li>
-            <li><a href="#">Option 5</a></li>
-            <li><a href="#">Option 6</a></li>
-            <li><a href="#">Option 7</a></li>
-            <li><a href="#">Option 8</a></li>
-            <li><a href="#">Option 9</a></li>
-            <li><a href="#">Option 10</a></li>
-          </ul>
-        </div><!-- /#options-panel.collapse -->
-      </div><!-- /.products-grid-options -->
-      <div class="products-grid col-sm-9">
-        <div class="row">
-          <div class="product-item col-xs-6 col-md-4">
-            <a href="#"><img src="holder.js/300x200/auto" alt="sample product" /></a>
-            <h2><a href="#">Product Title</a></h2>
-            <p>This text describes the above product a little not too much but just enough or maybe a little more</p>
-            <a class="btn btn-default btn-xs pull-right" href="#">View this product <i class="fa fa-arrow-circle-right"></i></a>
-          </div>
-          <div class="product-item col-xs-6 col-md-4">
-            <a href="#"><img src="holder.js/300x200/auto" alt="sample product" /></a>
-            <h2><a href="#">Longer Product Title</a></h2>
-            <p>This text describes the above product a little not too much</p>
-            <a class="btn btn-default btn-xs pull-right" href="#">View this product <i class="fa fa-arrow-circle-right"></i></a>
-          </div>
-          <div class="product-item col-xs-6 col-md-4">
-            <a href="#"><img src="holder.js/300x200/auto" alt="sample product" /></a>
-            <h2><a href="#">Even Longer Product Title</a></h2>
-            <p>This text describes the above product a little not too much but just enough -- or maybe we'll go on even longer on this one just because it's fun and, well, this product just really deserves it!</p>
-            <a class="btn btn-default btn-xs pull-right" href="#">View this product <i class="fa fa-arrow-circle-right"></i></a>
-          </div>
-          <div class="product-item col-xs-6 col-md-4">
-            <a href="#"><img src="holder.js/300x200/auto" alt="sample product" /></a>
-            <h2><a href="#">Exceptional Product Title</a></h2>
-            <p>This text describes the above product a little not too much but just enough</p>
-            <a class="btn btn-default btn-xs pull-right" href="#">View this product <i class="fa fa-arrow-circle-right"></i></a>
-          </div>
-          <div class="product-item col-xs-6 col-md-4">
-            <a href="#"><img src="holder.js/300x200/auto" alt="sample product" /></a>
-            <h2><a href="#">Even Longer Product Title</a></h2>
-            <p>This text describes the above product a little not too much but just enough -- or maybe we'll go on even longer on this one just because it's fun and, well, this product just really deserves it!</p>
-            <a class="btn btn-default btn-xs pull-right" href="#">View this product <i class="fa fa-arrow-circle-right"></i></a>
-          </div>
-          <div class="product-item col-xs-6 col-md-4">
-            <a href="#"><img src="holder.js/300x200/auto" alt="sample product" /></a>
-            <h2><a href="#">Product Title</a></h2>
-            <p>This text describes the above product a little not too much but just enough or maybe a little more</p>
-            <a class="btn btn-default btn-xs pull-right" href="#">View this product <i class="fa fa-arrow-circle-right"></i></a>
-          </div>
-          <div class="product-item col-xs-6 col-md-4">
-            <a href="#"><img src="holder.js/300x200/auto" alt="sample product" /></a>
-            <h2><a href="#">Longer Product Title</a></h2>
-            <p>This text describes the above product a little not too much</p>
-            <a class="btn btn-default btn-xs pull-right" href="#">View this product <i class="fa fa-arrow-circle-right"></i></a>
-          </div>
-          <div class="product-item col-xs-6 col-md-4">
-            <a href="#"><img src="holder.js/300x200/auto" alt="sample product" /></a>
-            <h2><a href="#">Even Longer Product Title</a></h2>
-            <p>This text describes the above product a little not too much but just enough -- or maybe we'll go on even longer on this one just because it's fun and, well, this product just really deserves it!</p>
-            <a class="btn btn-default btn-xs pull-right" href="#">View this product <i class="fa fa-arrow-circle-right"></i></a>
-          </div>
-          <div class="product-item col-xs-6 col-md-4">
-            <a href="#"><img src="holder.js/300x200/auto" alt="sample product" /></a>
-            <h2><a href="#">Product Title</a></h2>
-            <p>This text describes the above product a little not too much but just enough or maybe a little more</p>
-            <a class="btn btn-default btn-xs pull-right" href="#">View this product <i class="fa fa-arrow-circle-right"></i></a>
-          </div>
-        </div><!-- /.row -->
-        <div class="row pagination-wrap">
-          <ul class="pagination">
-            <li><a href="#"><span class="fa fa-chevron-left"></span> Prev</a></li>
-            <li><a href="#">1</a></li>
-            <li><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">4</a></li>
-            <li><a href="#">Next <span class="fa fa-chevron-right"></span></a></li>
-          </ul>
-        </div><!-- /.row.pagination-wrap -->
-      </div><!-- /.products-grid -->
-    </div><!-- /.row -->
-  </dic>
+  <div id="discover" class="container wow fadeInLeft" data-wow-offset="0" data-wow-delay="0.4s">
+    <ul class="category text-center">
+      <div class="row">
+        <li class="col-md-2 text-center" @click="toggle(tab.type,tab.view)" v-for="tab in tabs" :class="{'active': state == tab.type}"><span class="icon fa fa-2x" :class="tab.icon"></span><span class="type">  {{tab.type}}</span>
+        </li>
+      </div>
+    </ul>
+    <component :is="currentView" ></component>
+    <div class="container text-center">
+      <div class="row pagination-wrap">
+        <ul class="pagination">
+          <li><a href="#"><span class="fa fa-chevron-left"></span> Prev</a></li>
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#">Next <span class="fa fa-chevron-right"></span></a></li>
+        </ul>
+      </div><!-- /.row.pagination-wrap -->
+    </div>
+  </div>
 </template>
+
+<script >
+import food from './food.vue'
+import movie from './movie.vue'
+import animal from './animal.vue'
+import landscape from './landscape.vue'
+import book from './book.vue'
+import other from './other.vue'
+
+
+export default {
+  name: 'discover',
+  data () {
+    return {
+      currentView:food,
+      state:'美食',
+      tabs: [
+        {
+          type: '美食',
+          view: 'food',
+          icon: 'fa-spoon'
+      },
+      {
+        type: '电影',
+        view: 'movie',
+        icon: 'fa-caret-square-o-right'
+      },
+      {
+        type: '萌宠',
+        view: 'animal',
+        icon: 'fa-github'
+      },
+      {
+        type: '风光',
+        view: 'landscape',
+        icon: 'fa-photo'
+      },
+      {
+        type: '书籍',
+        view: 'book',
+        icon: 'fa-book'
+      },
+      {
+        type: '动态',
+        view: 'other',
+        icon: 'fa-navicon'
+      },
+    ]
+    }
+  },
+  methods: {
+    toggle(t,v) {
+      this.state = t;
+      this.currentView = v;
+  }
+  },
+  components:{
+    food,
+    movie,
+    animal,
+    landscape,
+    book,
+  }
+}
+</script>
+
+<style scoped>
+#discover .category{
+  list-style: none;
+  margin-bottom: 20px;
+}
+#discover .category li {
+  height: 50px;
+  padding:10px;
+  background-color:#fff;
+  color:#009ACD; 
+}
+#discover .category li .icon{
+  margin-bottom: 5px;
+}
+#discover .category li .type{
+  font-size: 16px;
+}
+#discover .category .active{
+  padding:10px;
+  background-color:#009ACD;
+  color:#fff;
+}
+</style>

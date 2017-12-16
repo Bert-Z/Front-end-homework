@@ -2,8 +2,8 @@
 	<div class="jumbotron" id="welcome">
 		<div class="container">
 	        <div class="welcome-message">
-	          <h1><em>发现</em> 身边的精彩</h1>
-	          <p>Ingenious marketing copy. And some <em>more</em> ingenious marketing copy.<a href="#discover" class="btn btn-lg btn-primary pull-right"> 点击向下，打开发现的世界<span class="icon fa fa-arrow-circle-down"></span></a></p>
+	          <h1>你为何而来？</h1>
+	          <p>在这里<em>发现</em> 你想看到的每一处景色.<a href="#discover" class="btn btn-lg btn-primary pull-right"> 点击向下，打开发现的世界<span class="icon fa fa-arrow-circle-down"></span></a></p>
 	        </div><!-- /.welcome-message -->
 	    </div>
     </div>
