@@ -1,5 +1,5 @@
 <template>
-  <div class="landscape row">
+  <div class="landscape row fadeInLeft wow" data-wow-delay="0.4s">
     <div class="reviews js-masonry" >
       <div class="col-sm-6 col-md-4">
       <div class="item thumbnail">
