@@ -1,5 +1,5 @@
 <template>
-  <div class="movie row">
+  <div class="movie row ">
     <div class="reviews js-masonry" >
       <div class="col-sm-6 col-md-4">
       <div class="item thumbnail">

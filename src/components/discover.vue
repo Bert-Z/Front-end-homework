@@ -2,12 +2,38 @@
   <div id="discover" class="container wow fadeInLeft" data-wow-offset="0" data-wow-delay="0.4s">
     <ul class="category text-center">
       <div class="row">
-        <li class="col-md-2 text-center" @click="toggle(tab.type,tab.view)" v-for="tab in tabs" :class="{'active': state == tab.type}"><span class="icon fa fa-2x" :class="tab.icon"></span><span class="type">  {{tab.type}}</span>
+        <li class="col-md-2 text-center" @click="toggle(tab.type,tab.view)" v-for="tab in tabs" :class="{'active': state == tab.type}"><span class="icon fa fa-2x" :class="tab.icon"></span>
         </li>
       </div>
     </ul>
+    <div class="row select">
+      <div class="select-item col-md-4 text-center">
+        <select id="way" data-live-search="true">  
+          <option>按照时间顺序</option>  
+          <option>按照点赞数量</option>  
+          <option>按照评论数量</option>  
+        </select> 
+      </div>
+      <div class="select-item col-md-4 text-center">
+        <select id="province" data-live-search="true">  
+          <option>上海</option>  
+          <option>河北</option>
+          <option>北京</option>
+          <option>湖北</option>
+          <option>湖南</option>
+          <option>江苏</option>
+          <option>广东</option>
+          <option>河南</option>
+        </select>
+      </div>
+      <div class="select-item col-md-4 text-center">
+        <select id="city" data-live-search="true">
+          <option>上海</option>
+        </select> 
+      </div>
+    </div>
     <component :is="currentView" ></component>
-    <div class="container text-center">
+    <div class="page container text-center">
       <div class="row pagination-wrap">
         <ul class="pagination">
           <li><a href="#"><span class="fa fa-chevron-left"></span> Prev</a></li>
@@ -15,6 +41,7 @@
           <li><a href="#">2</a></li>
           <li><a href="#">3</a></li>
           <li><a href="#">4</a></li>
+          <li><a href="#">..</a></li>
           <li><a href="#">Next <span class="fa fa-chevron-right"></span></a></li>
         </ul>
       </div><!-- /.row.pagination-wrap -->
@@ -73,6 +100,9 @@ export default {
   },
   methods: {
     toggle(t,v) {
+      setTimeout(function(){
+
+      },500)
       this.state = t;
       this.currentView = v;
   }
@@ -91,12 +121,13 @@ export default {
 #discover .category{
   list-style: none;
   margin-bottom: 20px;
+  border-bottom: 1px solid #636363;
 }
 #discover .category li {
   height: 50px;
   padding:10px;
   background-color:#fff;
-  color:#009ACD; 
+  color:#636363; 
 }
 #discover .category li .icon{
   margin-bottom: 5px;
@@ -106,7 +137,25 @@ export default {
 }
 #discover .category .active{
   padding:10px;
-  background-color:#009ACD;
+  background-color:#636363;
   color:#fff;
+}
+#discover .select{
+  margin: 20px;
+}
+#discover .select .select-item select{
+   padding: 5px;
+   font-size: 16px;
+   border: 1px solid #ccc;
+   border-radius: 10px;
+   background: #545454;
+   color: #fff;
+   font-family: "Microsoft YaHei";
+   outline: none;
+}
+#discover .page .pagination-wrap .pagination li a{
+  margin: 5px;
+  color: #545454;
+  border-radius: 50%;
 }
 </style>

@@ -1,8 +1,12 @@
 <template>
-  <div class="waterfall row">
+  <div class="waterfall row fadeInLeft">
     <div class="reviews js-masonry" >
       <div class="col-sm-6 col-md-4">
       <div class="food review-item-1 thumbnail">
+        <div class="comment text-center">
+          <span class="fa fa-heart fa-lg" style="margin-right:100px"></span>
+          <span class="fa fa-commenting fa-lg"></span>
+        </div>
         <img src="../assets/food1.jpg" alt="Customer Photo1">
         <div class="caption">
           <blockquote class="description"><p> 这是一幅食品的图片.</p></blockquote>
@@ -10,6 +14,10 @@
         </div><!-- /.caption -->
       </div><!-- /.hreview -->
       <div class="food review-item-2 thumbnail ">
+        <div class="comment text-center">
+          <span class="fa fa-heart fa-lg" style="margin-right:100px"></span>
+          <span class="fa fa-commenting fa-lg"></span>
+        </div>
         <img src="../assets/food2.jpg" alt="Customer Photo2">
         <div class="caption">
           <blockquote class="description"><p> 这是一幅食品的图片.</p></blockquote>
@@ -17,6 +25,10 @@
         </div><!-- /.caption -->
       </div><!-- /.hreview -->
       <div class="food review-item-3 thumbnail ">
+        <div class="comment text-center">
+          <span class="fa fa-heart fa-lg" style="margin-right:100px"></span>
+          <span class="fa fa-commenting fa-lg"></span>
+        </div>
         <img src="../assets/food3.jpg" alt="Customer Photo3">
         <div class="caption">
           <blockquote class="description"><p> 这是一幅食品的图片.</p></blockquote>
@@ -26,6 +38,10 @@
       </div>
       <div class="col-sm-6 col-md-4">
       <div class="food review-item-4 thumbnail ">
+        <div class="comment text-center">
+          <span class="fa fa-heart fa-lg" style="margin-right:100px"></span>
+          <span class="fa fa-commenting fa-lg"></span>
+        </div>
         <img src="../assets/food4.jpg" alt="Customer Photo4">
         <div class="caption">
           <blockquote class="description"><p> 这是一幅食品的图片.</p></blockquote>
@@ -33,6 +49,10 @@
         </div><!-- /.caption -->
       </div><!-- /.hreview -->
       <div class="food review-item-5 thumbnail ">
+        <div class="comment text-center">
+          <span class="fa fa-heart fa-lg" style="margin-right:100px"></span>
+          <span class="fa fa-commenting fa-lg"></span>
+        </div>
         <img src="../assets/food5.jpg" alt="Customer Photo5">
         <div class="caption">
           <blockquote class="description"><p> 这是一幅食品的图片.</p></blockquote>
@@ -40,6 +60,10 @@
         </div><!-- /.caption -->
       </div><!-- /.hreview -->
       <div class="food review-item-6 thumbnail ">
+        <div class="comment text-center">
+          <span class="fa fa-heart fa-lg" style="margin-right:100px"></span>
+          <span class="fa fa-commenting fa-lg"></span>
+        </div>
         <img src="../assets/food6.jpg" alt="Customer Photo6">
         <div class="caption">
           <blockquote class="description"><p> 这是一幅食品的图片.</p></blockquote>
@@ -49,6 +73,10 @@
       </div>
       <div class="col-sm-6 col-md-4">
       <div class="food review-item-7 thumbnail ">
+        <div class="comment text-center">
+          <span class="fa fa-heart fa-lg" style="margin-right:100px"></span>
+          <span class="fa fa-commenting fa-lg"></span>
+        </div>
         <img src="../assets/food7.jpg" alt="Customer Photo7">
         <div class="caption">
           <blockquote class="description"><p> 这是一幅食品的图片.</p></blockquote>
@@ -76,7 +104,20 @@ export default {
     position: relative;
     padding: 0 10px;
     border: none;
-  }
+}
+.waterfall .reviews .col-md-4 .food .comment{
+    display: none;
+}
+.waterfall .reviews .col-md-4 .food:hover .comment{
+    display: block;
+    position: absolute;
+    background-color:rgba(0,0,0,0.6);
+    top:0px;
+    left:10px;
+    right: 10px;
+    padding:10px;
+    color: #fff;
+}
 .waterfall .reviews .col-md-4 .food .caption {
     position: absolute;
     top: auto;
