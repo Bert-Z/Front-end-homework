@@ -6,6 +6,7 @@ import router from './router'
 import navbar from './components/navbar'
 import welcome from './components/welcome'
 import discover from './components/discover'
+import user_page from './components/user_page'
 
 Vue.config.productionTip = false
 
@@ -35,4 +36,8 @@ new Vue({
 	components:{discover}
 })
 
-
+new Vue({
+	el:'#user_page',
+	template:'<user_page/>',
+	components:{user_page}
+})

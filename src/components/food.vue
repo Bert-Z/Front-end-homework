@@ -36,7 +36,7 @@
         <img src="../assets/food5.jpg" alt="Customer Photo5">
         <div class="caption">
           <blockquote class="description"><p> 这是一幅食品的图片.</p></blockquote>
-          <p class="reviewer">用户名5</p>
+          <p class="reviewer">用户名</p>
         </div><!-- /.caption -->
       </div><!-- /.hreview -->
       <div class="food review-item-6 thumbnail ">
@@ -107,5 +107,3 @@ p{
 
 
 </style>
-
-

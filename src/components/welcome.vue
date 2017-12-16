@@ -11,7 +11,7 @@
 
 <script>
 export default {
-  name: 'navbar',
+  name: 'welcome',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
