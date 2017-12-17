@@ -102,7 +102,7 @@ export default {
 <style >
 .waterfall .reviews .col-md-4 .food{
     position: relative;
-    padding: 0 10px;
+    padding: 0px;
     border: none;
 }
 .waterfall .reviews .col-md-4 .food .comment{

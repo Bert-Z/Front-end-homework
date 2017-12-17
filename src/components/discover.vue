@@ -62,13 +62,13 @@
     <div class="page container text-center">
       <div class="row pagination-wrap">
         <ul class="pagination">
-          <li><a href="#"><span class="fa fa-chevron-left"></span> Prev</a></li>
+          <li><a href="#"><span class="fa fa-chevron-left"></span></a></li>
           <li><a href="#">1</a></li>
           <li><a href="#">2</a></li>
           <li><a href="#">3</a></li>
           <li><a href="#">4</a></li>
           <li><a href="#">..</a></li>
-          <li><a href="#">Next <span class="fa fa-chevron-right"></span></a></li>
+          <li><a href="#"><span class="fa fa-chevron-right"></span></a></li>
         </ul>
       </div><!-- /.row.pagination-wrap -->
     </div>
@@ -105,7 +105,7 @@ export default {
 #discover{
   width: 100%;
   padding:30px;
-  background-color: #efe8d5;
+  background-color: #D2B48C;
 }
 .tab .nav-tabs{
   padding-left: 20px;
@@ -132,7 +132,7 @@ export default {
   transition: all 0.5s ease 0s;
 } 
 .tab .nav-tabs li.active a,.tab .nav-tabs li a:hover{
-  background: linear-gradient(170deg, transparent 29%, #efe8d5 30%);
+  background: linear-gradient(170deg, transparent 29%, #EECFA1 30%);
   border: none;
   color: #908a78;
 } 
@@ -151,7 +151,7 @@ export default {
   position: relative;
   color: #6f6c6c;
   line-height: 26px;
-  background: #efe8d5;
+  background: #EECFA1;
   padding: 20px;
 } 
 #discover .select{
@@ -162,10 +162,9 @@ export default {
    padding: 5px;
    margin-left: 40px;
    font-size: 16px;
-   border: 1px solid #ccc;
-   border-radius: 10px;
-   background: #908a78;
-   color: #fff;
+   background: #D2B48C;
+   border:none;
+   color: #6f6c6c;
    font-family: "Microsoft YaHei";
    outline: none;
 }
@@ -173,6 +172,7 @@ export default {
   margin: 5px;
   color: #545454;
   border-radius: 50%;
-  background-color: #efe8b5;
+  border:none;
+  background-color: #EECFA1;
 }
 </style>
