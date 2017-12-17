@@ -28,7 +28,7 @@
   <div class="user-content"> 
     <div class="container"> 
         <div class="row">
-            <div class="col-md-offset-1 col-md-10"> 
+            <div class="col-md-10"> 
                 <div class="tab" role="tabpanel"> 
                     <!-- Nav tabs --> 
                     <ul class="nav nav-tabs" role="tablist"> 
