@@ -3,31 +3,25 @@
   <div class="container"> 
     <div class="row">
       <div class="col-md-8"> 
-        <div class="jumbotron" id="user_info">
-          <div class="panel panel-default">
-            <div class="panel-body">
-              <div class="row">
-                <div class="col-md-3 col-xs-12">
-                  <a class="thumbnail" href="#">
-                    <img width="180" height="171" alt="" src="../assets/user_one.jpg">
-                  </a>
-                </div>
-                <div class="col-md-9 col-xs-12">
-                  <h4>UserName&nbsp;&nbsp;&nbsp;</h4>
-                  <h5><small>ID:&nbsp;&nbsp;</small>*****  <span class="fa fa-edit"></span></h5>
-                  <h5><small>性别:&nbsp;&nbsp;</small>****  <span class="fa fa-edit"></span></h5>
-                  <h5><small>一句话介绍:&nbsp;&nbsp;</small>******  <span class="fa fa-edit"></span></h5>
-                  </h4>
-                </div>
-              </div>
-            </div>
+        <div class="row">
+          <div class="col-md-3 col-xs-12">
+            <a class="thumbnail" href="#">
+              <img width="180" height="171" alt="" src="../assets/user/icon3.jpg">
+            </a>
+          </div>
+          <div class="col-md-9 col-xs-12">
+            <h3>UserName&nbsp;&nbsp;&nbsp;</h3>
+            <h4><small>ID:&nbsp;&nbsp;</small>*****  <span class="fa fa-edit"></span></h4>
+            <h4><small>性别:&nbsp;&nbsp;</small>****  <span class="fa fa-edit"></span></h4>
+            <h4><small>一句话介绍:&nbsp;&nbsp;</small>******  <span class="fa fa-edit"></span></h4>
+            </h4>
           </div>
         </div>
         <div class="user-content"> 
             <div class="tab" role="tabpanel"> 
-              <ul class="nav nav-tabs" role="tablist"> 
-                  <li role="presentation" class="active"><a href="#Section1" aria-controls="home" role="tab" data-toggle="tab">我的影像</a></li> 
-                  <li role="presentation"><a href="#Section2" aria-controls="profile" role="tab" data-toggle="tab">我的好友</a></li> 
+              <ul class="nav nav-tabs" role="tablist">
+                  <li role="presentation" class="active"><a href="#Section1" aria-controls="home" role="tab" data-toggle="tab">我的影像</a></li>
+                  <li role="presentation"><a href="#Section2" aria-controls="profile" role="tab" data-toggle="tab">我的好友</a></li>
                   <li role="presentation"><a href="#Section3" aria-controls="messages" role="tab" data-toggle="tab">我的设置</a></li> 
               </ul> 
               <!-- Tab panes --> 

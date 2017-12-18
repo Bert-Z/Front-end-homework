@@ -1,5 +1,6 @@
 <template>
   <div id="discover" class="container wow fadeInLeft" data-wow-offset="0" data-wow-delay="0.4s">
+    <div class="text-center"><h1>你看到了什么？</h1></div>
     <div class="tab" role="tabpanel"> 
         <!-- Nav tabs --> 
         <ul class="nav nav-tabs" role="tablist"> 
@@ -107,6 +108,11 @@ export default {
   padding:30px;
   background-color: #D2B48C;
 }
+#discover h1{
+  padding-top: 50px;
+  font-family: STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑";
+  color:#908a78;
+}
 .tab .nav-tabs{
   padding-left: 20px;
   position: relative;
@@ -119,7 +125,7 @@ export default {
   display: block;
   height: 70px;
   line-height: 65px;
-  background: linear-gradient(170deg, transparent 29%, #908a78 30%);
+  background: linear-gradient(180deg, transparent 29%, #908a78 10%);
   font-size: 15px;
   font-weight: 600;
   color: #fff;
@@ -132,18 +138,11 @@ export default {
   transition: all 0.5s ease 0s;
 } 
 .tab .nav-tabs li.active a,.tab .nav-tabs li a:hover{
-  background: linear-gradient(170deg, transparent 29%, #EECFA1 30%);
+  background: linear-gradient(180deg, transparent 29%, #EECFA1 10%);
   border: none;
   color: #908a78;
 } 
-.tab .nav-tabs li a:before{
-  content: "";height: 70px;
-  line-height: 90px;
-  border-bottom: 70px solid rgba(0, 0, 0, 0.1);
-  border-right: 10px solid transparent;
-  position: absolute;top: 0;left: 100%;
-  z-index: 1;
-} 
+
 .tab .nav-tabs li:last-child a:before{
   border: none;
 } 

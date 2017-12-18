@@ -21,7 +21,7 @@
 		      </div>
 	      </div>
 	      <div class="right-section col-md-4">
-	      	<div class="page-header"><strong>热门博主</strong></div>
+	      	<div class="page-header"><strong>为你推荐</strong></div>
 	      	<div class="user row">
 	      		<a class="thumbnail col-md-3"><img src="../assets/user/icon1.jpg"></a>
 	      		<div class="col-md-8">
