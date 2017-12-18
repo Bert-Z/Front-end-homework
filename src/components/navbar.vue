@@ -42,9 +42,9 @@ export default {
 	width:100%;
 	padding-left: 40px;
 	margin-right:0px;
-	background-color: #6BB9F0;
-	color: #2C3E50;
-	border-bottom: 1px solid #FFF;
+	background-color: #D2B48C;
+	color: #D2B48C;
+	border-bottom: 1px solid #EECFA1;
 }
 .navbar .container .navbar-collapse ul li{
 	padding-right: 50px;
@@ -60,8 +60,8 @@ export default {
 .navbar-fixed-top .navbar-nav > .open > a,
 .navbar-fixed-top .navbar-nav > .open > a:hover,
 .navbar-fixed-top .navbar-nav > .open > a:focus{
-    background: #2C3E50;
-    color:#6BB9F0;
+    background: #908a78;  
+    color:#D2B48C;
 }
 .btn:focus{
 	outline: none;

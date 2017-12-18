@@ -1,63 +1,48 @@
 <template>
 <div id="user_page">
-  <div class="jumbotron" id="user_info">
-    <div class="container">
-      <div class="col-md-9 col-xs-12">
-        <div class="panel panel-default">
-          <div class="panel-body">
-            <div class="row">
-              <div class="col-md-3 col-xs-12">
-                <a class="thumbnail" href="#">
-                  <img width="180" height="171" alt="" src="../assets/user_one.jpg">
-                </a>
-              </div>
-              <div class="col-md-9 col-xs-12">
-                <h4>User&nbsp;&nbsp;&nbsp;</h4>
-                <h5><small>ID:&nbsp;&nbsp;</small>*****</h5>
-                <h5><small>性别:&nbsp;&nbsp;</small>****</h5>
-                <h5><small>一句话介绍:&nbsp;&nbsp;</small>******</h5>
-                <h4><a class="btn btn-info"><span class="glyphicon glyphicon-edit"></span> 编辑</a>
-                </h4>
-              </div>
-            </div>
+  <div class="container"> 
+    <div class="row">
+      <div class="col-md-8"> 
+        <div class="row">
+          <div class="col-md-3 col-xs-12">
+            <a class="thumbnail" href="#">
+              <img width="180" height="171" alt="" src="../assets/user/icon3.jpg">
+            </a>
+          </div>
+          <div class="col-md-9 col-xs-12">
+            <h3>UserName&nbsp;&nbsp;&nbsp;</h3>
+            <h4><small>ID:&nbsp;&nbsp;</small>*****  <span class="fa fa-edit"></span></h4>
+            <h4><small>性别:&nbsp;&nbsp;</small>****  <span class="fa fa-edit"></span></h4>
+            <h4><small>一句话介绍:&nbsp;&nbsp;</small>******  <span class="fa fa-edit"></span></h4>
+            </h4>
           </div>
         </div>
+        <div class="user-content"> 
+            <div class="tab" role="tabpanel"> 
+              <ul class="nav nav-tabs" role="tablist">
+                  <li role="presentation" class="active"><a href="#Section1" aria-controls="home" role="tab" data-toggle="tab">我的影像</a></li>
+                  <li role="presentation"><a href="#Section2" aria-controls="profile" role="tab" data-toggle="tab">我的好友</a></li>
+                  <li role="presentation"><a href="#Section3" aria-controls="messages" role="tab" data-toggle="tab">我的设置</a></li> 
+              </ul> 
+              <!-- Tab panes --> 
+              <div class="tab-content tabs"> 
+                  <div role="tabpanel" class="tab-pane fade in active" id="Section1"> 
+                      <h3>我的影像</h3> 
+                  </div> 
+                  <div role="tabpanel" class="tab-pane fade" id="Section2"> 
+                      <h3>我的好友</h3> 
+                  </div> 
+                  <div role="tabpanel" class="tab-pane fade" id="Section3"> 
+                      <h3>我的设置</h3> 
+                  </div> 
+              </div> 
+            </div> 
+        </div> 
       </div>
-    </div>
-  </div>
-  <div class="user-content">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-10">
-                <div class="tab" role="tabpanel">
-                    <!-- Nav tabs -->
-                    <ul class="nav nav-tabs" role="tablist">
-                        <li role="presentation" class="active"><a href="#Section1" aria-controls="home" role="tab" data-toggle="tab">我的图文动态</a></li>
-                        <li role="presentation"><a href="#Section2" aria-controls="profile" role="tab" data-toggle="tab">我的好友</a></li>
-                        <li role="presentation"><a href="#Section3" aria-controls="messages" role="tab" data-toggle="tab">我的设置</a></li>
-                    </ul>
-                    <!-- Tab panes -->
-                    <div class="tab-content tabs">
-                        <div role="tabpanel" class="tab-pane fade in active" id="Section1">
-                            <h3>我的图文动态</h3>
-                            <p>第一个阶段，是做出要求，对宇宙发出指令，让宇宙了解你想要些什么，宇宙就会自动回应你的想法。</p>
-                            <p>这是一个很有意思的过程，就好比把宇宙当成一本货物的目录，你翻着它，然后决定“我要经历这个，我要那种东西，我要跟那种人一起生活”，你就是那个跟宇宙下订单的人。其实就是这样简单。</p>
-                        </div>
-                        <div role="tabpanel" class="tab-pane fade" id="Section2">
-                            <h3>我的好友</h3>
-                            <p>第二步是信念。你要相信你已经拥有它了。要有一种毫不动摇的信念，就是我的说法，要相信还没有实现的事，“你的愿望就是我的命令”，宇宙就会开始运作安排，从而满足你心中的愿望。</p>
-                            <p>大多数的时候，假如我们要求的事物没有出现在生活中，我们会感到沮丧和失望，我们甚至会开始怀疑，这种怀疑会让人感到心灰意冷。接受这个感觉，然后用坚定的信念代替它：“我知道……我知道……我知道……，它就要实现了。”</p>
-                        </div>
-                        <div role="tabpanel" class="tab-pane fade" id="Section3">
-                            <h3>我的设置</h3>
-                            <p>第三步，就是这个过程最后一步，接受。开始感觉好极了，想想要是你想要的事物已经出现，那会是什么感觉。</p>
-                            <p>当你感觉好的时候，你就是把自己和你要的事物放在同一个频率上。尝试去做一切你能做的事，帮助自己具有拥有它们的感觉。无论你能做什么，只要去做，就有助于把这些东西吸引过来。</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+      <div class="col-md-4">
+
+      </div>
+    </div> 
   </div>
 </div>
 </template>
@@ -75,10 +60,9 @@ export default {
   background: linear-gradient(#35455e, #35455e 70%);
 }
 .panel{
-  background-color:#efe8d5;
+  background-color:#EECFA1;
 }
 #user_info{
-	height: 320px;
 	position: relative;
 }
 .user-content{

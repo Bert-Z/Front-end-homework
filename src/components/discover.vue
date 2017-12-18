@@ -62,13 +62,13 @@
     <div class="page container text-center">
       <div class="row pagination-wrap">
         <ul class="pagination">
-          <li><a href="#"><span class="fa fa-chevron-left"></span> Prev</a></li>
+          <li><a href="#"><span class="fa fa-chevron-left"></span></a></li>
           <li><a href="#">1</a></li>
           <li><a href="#">2</a></li>
           <li><a href="#">3</a></li>
           <li><a href="#">4</a></li>
           <li><a href="#">..</a></li>
-          <li><a href="#">Next <span class="fa fa-chevron-right"></span></a></li>
+          <li><a href="#"><span class="fa fa-chevron-right"></span></a></li>
         </ul>
       </div><!-- /.row.pagination-wrap -->
     </div>
@@ -105,7 +105,12 @@ export default {
 #discover{
   width: 100%;
   padding:30px;
-  background: #35455e;
+  background-color: #D2B48C;
+}
+#discover h1{
+  padding-top: 50px;
+  font-family: STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑";
+  color:#908a78;
 }
 .tab .nav-tabs{
   padding-left: 20px;
@@ -119,7 +124,7 @@ export default {
   display: block;
   height: 70px;
   line-height: 65px;
-  background: linear-gradient(170deg, transparent 29%, #67809F 30%);
+  background: linear-gradient(180deg, transparent 29%, #908a78 10%);
   font-size: 15px;
   font-weight: 600;
   color: #fff;
@@ -132,18 +137,10 @@ export default {
   transition: all 0.5s ease 0s;
 }
 .tab .nav-tabs li.active a,.tab .nav-tabs li a:hover{
-  background: linear-gradient(170deg, transparent 29%, #3498DB 30%);
+  background: linear-gradient(180deg, transparent 29%, #EECFA1 10%);
   border: none;
-  color: #2C3E50;
-}
-.tab .nav-tabs li a:before{
-  content: "";height: 70px;
-  line-height: 90px;
-  border-bottom: 70px solid rgba(0, 0, 0, 0.1);
-  border-right: 10px solid transparent;
-  position: absolute;top: 0;left: 100%;
-  z-index: 1;
-}
+  color: #908a78;
+} 
 .tab .nav-tabs li:last-child a:before{
   border: none;
 }
@@ -151,7 +148,7 @@ export default {
   position: relative;
   color: #2C3E50;
   line-height: 26px;
-  background:  #35455e;
+  background: #EECFA1;
   padding: 20px;
 }
 #discover .select{
@@ -162,10 +159,9 @@ export default {
    padding: 5px;
    margin-left: 40px;
    font-size: 16px;
-   border: 1px solid #ccc;
-   border-radius: 10px;
-   background: #5C97BF;
-   color: #fff;
+   background: #D2B48C;
+   border:none;
+   color: #6f6c6c;
    font-family: "Microsoft YaHei";
    outline: none;
 }
@@ -173,6 +169,7 @@ export default {
   margin: 5px;
   color: #545454;
   border-radius: 50%;
-  background-color: #1E8BC3;
+  border:none;
+  background-color: #EECFA1;
 }
 </style>

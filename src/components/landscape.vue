@@ -74,7 +74,7 @@ export default {
 <style >
 .landscape .reviews .col-md-4 .item{
     position: relative;
-    padding: 0 10px;
+    padding: 0px;
     border: none;
   }
 .landscape .reviews .col-md-4 .item .caption {

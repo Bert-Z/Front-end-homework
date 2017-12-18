@@ -74,7 +74,7 @@ export default {
 <style >
 .movie .reviews .col-md-4 .item{
     position: relative;
-    padding: 0 10px;
+    padding: 0px;
     border: none;
   }
 .movie .reviews .col-md-4 .item .caption {
