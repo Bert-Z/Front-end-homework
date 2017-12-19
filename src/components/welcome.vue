@@ -76,7 +76,7 @@ export default {
 <style scoped>
 #welcome{
 	margin-top: 30px;
-	background-color: #D2B48C;
+	background-color: #f3f3f3;
 }
 #welcome .container .jumbotron{
 	margin-top: 50px;
@@ -84,10 +84,7 @@ export default {
 	background-size: 100% 100%;
 	position: relative;
 }
-#welcome .page-header{
-	border-bottom: 1px solid #EECFA1;
-	color: #EECFA1;
-}
+
 #welcome .container .left-section .image a,
 #welcome .container .left-section .image a:hover,
 #welcome .container .left-section .image a:focus{
