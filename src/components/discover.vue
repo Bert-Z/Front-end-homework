@@ -3,39 +3,15 @@
     <div class="tab" role="tabpanel">
         <!-- Nav tabs -->
         <ul class="nav nav-tabs" role="tablist">
-            <li role="presentation" class="active"><a href="#food"  role="tab" data-toggle="tab"><span class="icon fa fa-2x fa-spoon"></span></a></li>
-            <li role="presentation"><a href="#movie" role="tab" data-toggle="tab"><span class="icon fa fa-2x fa-caret-square-o-right"></span></a></li>
-            <li role="presentation"><a href="#animal" role="tab" data-toggle="tab"><span class="icon fa fa-2x fa-github"></span></a></li>
-            <li role="presentation"><a href="#landscape" role="tab" data-toggle="tab"><span class="icon fa fa-2x fa-photo"></span></a></li>
-            <li role="presentation"><a href="#book" role="tab" data-toggle="tab"><span class="icon fa fa-2x fa-book"></span></a></li>
-            <li role="presentation"><a href="#other" role="tab" data-toggle="tab"><span class="icon fa fa-2x fa-navicon"></span></a></li>
-            <div class="select">
-              <div class="select-item  text-center">
-                <select id="way" data-live-search="true">
-                  <option>按照时间顺序</option>
-                  <option>好友优先</option>
-                  <option>按照点赞数量</option>
-                  <option>按照评论数量</option>
-                </select>
-              </div>
-              <div class="select-item  text-center">
-                <select id="province" data-live-search="true">
-                  <option>上海</option>
-                  <option>河北</option>
-                  <option>北京</option>
-                  <option>湖北</option>
-                  <option>湖南</option>
-                  <option>江苏</option>
-                  <option>广东</option>
-                  <option>河南</option>
-                </select>
-              </div>
-              <div class="select-item  text-center">
-                <select id="city" data-live-search="true">
-                  <option>上海</option>
-                </select>
-              </div>
-            </div>
+            <li role="presentation" class="active"><a href="#landscape"  role="tab" data-toggle="tab"><span class="icon fa fa-lg fa-graduation-cap"></span> 我的大学</a></li>
+            <li role="presentation"><a href="#landscape"  role="tab" data-toggle="tab"><span class="icon fa fa-lg fa-users"></span> 我的好友</a></li>
+            <li role="presentation"><a href="#animal"  role="tab" data-toggle="tab"><span class="icon fa fa-lg fa-building"></span> 我的城市</a></li>
+            <li role="presentation"><a href="#food"  role="tab" data-toggle="tab"><span class="icon fa fa-lg fa-spoon"></span></a></li>
+            <li role="presentation"><a href="#movie" role="tab" data-toggle="tab"><span class="icon fa fa-lg fa-caret-square-o-right"></span></a></li>
+            <li role="presentation"><a href="#animal" role="tab" data-toggle="tab"><span class="icon fa fa-lg fa-github"></span></a></li>
+            <li role="presentation"><a href="#landscape" role="tab" data-toggle="tab"><span class="icon fa fa-lg fa-photo"></span></a></li>
+            <li role="presentation"><a href="#book" role="tab" data-toggle="tab"><span class="icon fa fa-lg fa-book"></span></a></li>
+            <li role="presentation"><a href="#other" role="tab" data-toggle="tab"><span class="icon fa fa-lg fa-navicon"></span></a></li>
         </ul>
         <!-- Tab panes -->
         <div class="tab-content tabs">
@@ -95,7 +71,7 @@ export default {
 #discover{
   width: 100%;
   padding:30px;
-  background-color: #f3f3f3;
+  background-color: #FFF;
 }
 #discover h1{
   padding-top: 50px;
@@ -104,32 +80,41 @@ export default {
 }
 .tab .nav-tabs{
   padding-left: 20px;
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-bottom: 20px;
   position: relative;
-  border-bottom: 0 none;
+  color:#B5B5B5;
 }
 .tab .nav-tabs li{
   text-align: center;
 }
 .tab .nav-tabs li a{
   display: block;
-  height: 70px;
+  outline: none;
+  height: 50px;
   line-height: 65px;
-  background: #908a78;
   font-size: 15px;
   font-weight: 600;
-  color: #fff;
+  color: #B5B5B5;
   text-transform: uppercase;
   margin-right: 0;
-  border-radius: 0;
-  border: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #D3D3D3;
   position: relative;
-  padding:20px 50px 20px 50px;
-  transition: all 0.5s ease 0s;
+  padding:0px 20px 60px 20px;
+  transition: all 0.3s ease 0s;
 }
 .tab .nav-tabs li.active a,.tab .nav-tabs li a:hover{
-  background: #908a78;
-  border: none;
-  color: #fff;
+  outline: none;
+  color: #6B6B6B;
+  background:#FFF;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #6B6B6B;
 }
 .tab .nav-tabs li:last-child a:before{
   border: none;
@@ -140,26 +125,5 @@ export default {
   line-height: 26px;
   background: #fff;
   padding: 20px;
-}
-#discover .select{
-  margin: 20px;
-}
-#discover .select .select-item select{
-   float: left;
-   padding: 5px;
-   margin-left: 40px;
-   font-size: 16px;
-   background: #fff;
-   border:none;
-   color: #6f6c6c;
-   font-family: "Microsoft YaHei";
-   outline: none;
-}
-#discover .page .pagination-wrap .pagination li a{
-  margin: 5px;
-  color: #545454;
-  border-radius: 50%;
-  border:none;
-  background-color: #EECFA1;
 }
 </style>
