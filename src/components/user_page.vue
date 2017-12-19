@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-11 col-md-offset-1">
-        <div class="row">
+        <div class="row" id="user_message1">
           <div class="col-md-2 col-xs-12">
             <a class="thumbnail" href="#">
               <img width="180" height="171" alt="" src="../assets/user/icon3.jpg">
@@ -28,36 +28,44 @@
             <h4>&nbsp;&nbsp;&nbsp;</h4>
             <h4>&nbsp;&nbsp;&nbsp;</h4>
             <h4>&nbsp;&nbsp;&nbsp;</h4>
-            <button class="btn btn-success"><span class="fa fa-edit fa-lg " aria-hidden="true"></span></button>
+            <button class="btn btn-success" ><span class="fa fa-edit fa-lg " aria-hidden="true"></span></button>
           </div>
         </div>
       </div>
     </div>
       <div class="row">
-      <div class="col-md-7 col-md-offset-1">
-        <div class="user-content">
+      <div class="col-md-7 col-md-offset-1" id="user_message2">
+        <div class="user-content"  >
             <div class="tab" role="tabpanel">
               <ul class="nav nav-tabs" role="tablist">
-                  <li role="presentation" class="active"><a href="#Section1" aria-controls="home" role="tab" data-toggle="tab">我的影像</a></li>
-                  <li role="presentation"><a href="#Section2" aria-controls="profile" role="tab" data-toggle="tab">我的好友</a></li>
-                  <li role="presentation"><a href="#Section3" aria-controls="messages" role="tab" data-toggle="tab">我的设置</a></li>
+                  <li role="presentation" class="active"><a href="#Section1" aria-controls="home" role="tab" data-toggle="tab">好友动态</a></li>
+                  <li role="presentation"><a href="#Section2" aria-controls="profile" role="tab" data-toggle="tab">我的回答</a></li>
+                  <li role="presentation"><a href="#Section3" aria-controls="messages" role="tab" data-toggle="tab">我的提问</a></li>
+                  <li role="presentation"><a href="#Section4" aria-controls="messages" role="tab" data-toggle="tab">我的关注</a></li>
+                  <li role="presentation"><a href="#Section5" aria-controls="messages" role="tab" data-toggle="tab">好友信息</a></li>
               </ul>
               <!-- Tab panes -->
               <div class="tab-content tabs">
                   <div role="tabpanel" class="tab-pane fade in active" id="Section1">
-                      <h3>我的影像</h3>
+                      <h3>动态</h3>
                   </div>
                   <div role="tabpanel" class="tab-pane fade" id="Section2">
-                      <h3>我的好友</h3>
+                      <h3>回答</h3>
                   </div>
                   <div role="tabpanel" class="tab-pane fade" id="Section3">
-                      <h3>我的设置</h3>
+                      <h3>提问</h3>
+                  </div>
+                  <div role="tabpanel" class="tab-pane fade" id="Section4">
+                      <h3>关注</h3>
+                  </div>
+                  <div role="tabpanel" class="tab-pane fade" id="Section5">
+                      <h3>好友</h3>
                   </div>
               </div>
             </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4" id="user_message3">
         <div class="page-header"><strong>消息框</strong></div>
         <div class="user row">
         <ul>
@@ -100,8 +108,11 @@ export default {
 </script>
 
 <style scoped>
+#user_message1,#user_message2,#user_message3{
+  background:#fff;
+}
 #user_page,#user_page .jumbotron{
-  background: linear-gradient(#35455e, #35455e 70%);
+  background: #f3f3f3;
 }
 #user_page .form-group{
   margin: 5px;
@@ -138,7 +149,7 @@ a:hover,a:focus{
   background: linear-gradient(165deg, transparent 29%, #2C3E50 30%);
   font-size: 15px;
   font-weight: 600;
-  color: #fff;
+  color:#fff;
   text-transform: uppercase;
   margin-right: 0;
   border-radius: 0;
