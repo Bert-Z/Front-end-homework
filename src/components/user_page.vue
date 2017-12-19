@@ -56,29 +56,34 @@
               </div>
             </div>
         </div>
-
       </div>
       <div class="col-md-4">
-        <div class="page-header"><strong>个人成就</strong></div>
+        <div class="page-header"><strong>消息框</strong></div>
         <div class="user row">
-          <h4>&nbsp;&nbsp;&nbsp;参与了x次公共编辑</h4>
-          </div>
-          <div class="page-header"><strong>个人成就</strong></div>
-          <table class="table table-striped">
-
-            <tr>
-              <td>关注的话题</td>
-              <td>25</td>
-            </tr>
-            <tr>
-              <td>关注的话题</td>
-              <td>25</td>
-            </tr>
-            <tr>
-              <td>关注的话题</td>
-              <td>25</td>
-            </tr>
-          </table>
+        <ul>
+          <li><h5>智能玩咖 回答了 江苏有哪些鲜有人知的特色景点？</h5></li>
+          <li><h5>智能玩咖 回答了 河南有哪些鲜有人知的特色小吃？</h5></li>
+          <li><h5>智能玩咖 回答了 上海有哪些好吃的日料店？</h5></li>
+        </ul>
+      </div>
+        <div class="page-header"><strong>个人成就</strong></div>
+          <h4><span class="fa fa-pencil-square" aria-hidden="true"></span>&nbsp;参与了x次公共编辑</h4>
+          <h4><span class="fa fa-star" aria-hidden="true"></span>&nbsp;被x名用户关注</h4>
+          <div class="page-header"><strong>我的关注</strong></div>
+              <table class="table">
+                <tr>
+                  <td>关注的话题</td>
+                  <td>25</td>
+                </tr>
+                <tr>
+                  <td>关注的收藏夹</td>
+                  <td>13</td>
+                </tr>
+                <tr>
+                  <td>关注的用户</td>
+                  <td>98</td>
+                </tr>
+              </table>
         </div>
       </div>
     </div>
