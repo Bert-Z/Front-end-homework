@@ -1,48 +1,100 @@
 <template>
 <div id="user_page">
-  <div class="container"> 
+  <div class="container">
     <div class="row">
-      <div class="col-md-8"> 
-        <div class="row">
-          <div class="col-md-3 col-xs-12">
+      <div class="col-md-11 col-md-offset-1">
+        <div class="row" id="user_message1">
+          <div class="col-md-2 col-xs-12">
             <a class="thumbnail" href="#">
               <img width="180" height="171" alt="" src="../assets/user/icon3.jpg">
             </a>
           </div>
-          <div class="col-md-9 col-xs-12">
+          <div class="col-md-7 col-xs-12">
+            <h4>&nbsp;&nbsp;&nbsp;</h4>
             <h3>UserName&nbsp;&nbsp;&nbsp;</h3>
-            <h4><small>ID:&nbsp;&nbsp;</small>*****  <span class="fa fa-edit"></span></h4>
-            <h4><small>性别:&nbsp;&nbsp;</small>****  <span class="fa fa-edit"></span></h4>
-            <h4><small>一句话介绍:&nbsp;&nbsp;</small>******  <span class="fa fa-edit"></span></h4>
-            </h4>
+            <form class="form-horizontal">
+              <div class="form-group">
+                <span class="glyphicon glyphicon-education" aria-hidden="true"></span>
+                <label>SJTU&nbsp;&nbsp;</label>
+                <label>|&nbsp;&nbsp;&nbsp;性别:&nbsp;  <span class="fa fa-mars" aria-hidden="true"></span></label>
+              </div>
+              <div class="form-group">
+                <label>一句话介绍:&nbsp;&nbsp;  </label>
+                <input type="text"  size='50'  style="background:transparent; border:none;" >
+              </div>
+            </form>
+          </div>
+          <div class="col-md-offset-2 col-md-1" >
+            <h4>&nbsp;&nbsp;&nbsp;</h4>
+            <h4>&nbsp;&nbsp;&nbsp;</h4>
+            <h4>&nbsp;&nbsp;&nbsp;</h4>
+            <button class="btn btn-success" ><span class="fa fa-edit fa-lg " aria-hidden="true"></span></button>
           </div>
         </div>
-        <div class="user-content"> 
-            <div class="tab" role="tabpanel"> 
+      </div>
+    </div>
+      <div class="row">
+      <div class="col-md-7 col-md-offset-1" id="user_message2">
+        <div class="user-content"  >
+            <div class="tab" role="tabpanel">
               <ul class="nav nav-tabs" role="tablist">
-                  <li role="presentation" class="active"><a href="#Section1" aria-controls="home" role="tab" data-toggle="tab">我的影像</a></li>
-                  <li role="presentation"><a href="#Section2" aria-controls="profile" role="tab" data-toggle="tab">我的好友</a></li>
-                  <li role="presentation"><a href="#Section3" aria-controls="messages" role="tab" data-toggle="tab">我的设置</a></li> 
-              </ul> 
-              <!-- Tab panes --> 
-              <div class="tab-content tabs"> 
-                  <div role="tabpanel" class="tab-pane fade in active" id="Section1"> 
-                      <h3>我的影像</h3> 
-                  </div> 
-                  <div role="tabpanel" class="tab-pane fade" id="Section2"> 
-                      <h3>我的好友</h3> 
-                  </div> 
-                  <div role="tabpanel" class="tab-pane fade" id="Section3"> 
-                      <h3>我的设置</h3> 
-                  </div> 
-              </div> 
-            </div> 
-        </div> 
+                  <li role="presentation" class="active"><a href="#Section1" aria-controls="home" role="tab" data-toggle="tab">好友动态</a></li>
+                  <li role="presentation"><a href="#Section2" aria-controls="profile" role="tab" data-toggle="tab">我的回答</a></li>
+                  <li role="presentation"><a href="#Section3" aria-controls="messages" role="tab" data-toggle="tab">我的提问</a></li>
+                  <li role="presentation"><a href="#Section4" aria-controls="messages" role="tab" data-toggle="tab">我的关注</a></li>
+                  <li role="presentation"><a href="#Section5" aria-controls="messages" role="tab" data-toggle="tab">好友信息</a></li>
+              </ul>
+              <!-- Tab panes -->
+              <div class="tab-content tabs">
+                  <div role="tabpanel" class="tab-pane fade in active" id="Section1">
+                      <h3>动态</h3>
+                  </div>
+                  <div role="tabpanel" class="tab-pane fade" id="Section2">
+                      <h3>回答</h3>
+                  </div>
+                  <div role="tabpanel" class="tab-pane fade" id="Section3">
+                      <h3>提问</h3>
+                  </div>
+                  <div role="tabpanel" class="tab-pane fade" id="Section4">
+                      <h3>关注</h3>
+                  </div>
+                  <div role="tabpanel" class="tab-pane fade" id="Section5">
+                      <h3>好友</h3>
+                  </div>
+              </div>
+            </div>
+        </div>
       </div>
-      <div class="col-md-4">
-
+      <div class="col-md-4" id="user_message3">
+        <div class="page-header"><strong>消息框</strong></div>
+        <div class="user row">
+        <ul>
+          <li><h5>智能玩咖 回答了 江苏有哪些鲜有人知的特色景点？</h5></li>
+          <li><h5>智能玩咖 回答了 河南有哪些鲜有人知的特色小吃？</h5></li>
+          <li><h5>智能玩咖 回答了 上海有哪些好吃的日料店？</h5></li>
+        </ul>
       </div>
-    </div> 
+        <div class="page-header"><strong>个人成就</strong></div>
+          <h4><span class="fa fa-pencil-square" aria-hidden="true"></span>&nbsp;参与了x次公共编辑</h4>
+          <h4><span class="fa fa-star" aria-hidden="true"></span>&nbsp;被x名用户关注</h4>
+          <div class="page-header"><strong>我的关注</strong></div>
+              <table class="table">
+                <tr>
+                  <td>关注的话题</td>
+                  <td>25</td>
+                </tr>
+                <tr>
+                  <td>关注的收藏夹</td>
+                  <td>13</td>
+                </tr>
+                <tr>
+                  <td>关注的用户</td>
+                  <td>98</td>
+                </tr>
+              </table>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 </template>
@@ -56,8 +108,18 @@ export default {
 </script>
 
 <style scoped>
+#user_message1,#user_message2,#user_message3{
+  background:#fff;
+}
 #user_page,#user_page .jumbotron{
-  background: linear-gradient(#35455e, #35455e 70%);
+  background: #f3f3f3;
+}
+#user_page .form-group{
+  margin: 5px;
+}
+#user_page .container{
+  padding:auto auto auto 0;
+  margin:auto auto auto 0;
 }
 .panel{
   background-color:#EECFA1;
@@ -87,7 +149,7 @@ a:hover,a:focus{
   background: linear-gradient(165deg, transparent 29%, #2C3E50 30%);
   font-size: 15px;
   font-weight: 600;
-  color: #fff;
+  color:#fff;
   text-transform: uppercase;
   margin-right: 0;
   border-radius: 0;
