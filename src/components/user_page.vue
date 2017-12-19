@@ -1,48 +1,87 @@
 <template>
 <div id="user_page">
-  <div class="container"> 
+  <div class="container">
     <div class="row">
-      <div class="col-md-8"> 
+      <div class="col-md-11 col-md-offset-1">
         <div class="row">
-          <div class="col-md-3 col-xs-12">
+          <div class="col-md-2 col-xs-12">
             <a class="thumbnail" href="#">
               <img width="180" height="171" alt="" src="../assets/user/icon3.jpg">
             </a>
           </div>
-          <div class="col-md-9 col-xs-12">
+          <div class="col-md-7 col-xs-12">
+            <h4>&nbsp;&nbsp;&nbsp;</h4>
             <h3>UserName&nbsp;&nbsp;&nbsp;</h3>
-            <h4><small>ID:&nbsp;&nbsp;</small>*****  <span class="fa fa-edit"></span></h4>
-            <h4><small>性别:&nbsp;&nbsp;</small>****  <span class="fa fa-edit"></span></h4>
-            <h4><small>一句话介绍:&nbsp;&nbsp;</small>******  <span class="fa fa-edit"></span></h4>
-            </h4>
+            <form class="form-horizontal">
+              <div class="form-group">
+                <span class="glyphicon glyphicon-education" aria-hidden="true"></span>
+                <label>SJTU&nbsp;&nbsp;</label>
+                <label>|&nbsp;&nbsp;&nbsp;性别:&nbsp;  <span class="fa fa-mars" aria-hidden="true"></span></label>
+              </div>
+              <div class="form-group">
+                <label>一句话介绍:&nbsp;&nbsp;  </label>
+                <input type="text"  size='50'  style="background:transparent; border:none;" >
+              </div>
+            </form>
+          </div>
+          <div class="col-md-offset-2 col-md-1" >
+            <h4>&nbsp;&nbsp;&nbsp;</h4>
+            <h4>&nbsp;&nbsp;&nbsp;</h4>
+            <h4>&nbsp;&nbsp;&nbsp;</h4>
+            <button class="btn btn-success"><span class="fa fa-edit fa-lg " aria-hidden="true"></span></button>
           </div>
         </div>
-        <div class="user-content"> 
-            <div class="tab" role="tabpanel"> 
+      </div>
+    </div>
+      <div class="row">
+      <div class="col-md-7 col-md-offset-1">
+        <div class="user-content">
+            <div class="tab" role="tabpanel">
               <ul class="nav nav-tabs" role="tablist">
                   <li role="presentation" class="active"><a href="#Section1" aria-controls="home" role="tab" data-toggle="tab">我的影像</a></li>
                   <li role="presentation"><a href="#Section2" aria-controls="profile" role="tab" data-toggle="tab">我的好友</a></li>
-                  <li role="presentation"><a href="#Section3" aria-controls="messages" role="tab" data-toggle="tab">我的设置</a></li> 
-              </ul> 
-              <!-- Tab panes --> 
-              <div class="tab-content tabs"> 
-                  <div role="tabpanel" class="tab-pane fade in active" id="Section1"> 
-                      <h3>我的影像</h3> 
-                  </div> 
-                  <div role="tabpanel" class="tab-pane fade" id="Section2"> 
-                      <h3>我的好友</h3> 
-                  </div> 
-                  <div role="tabpanel" class="tab-pane fade" id="Section3"> 
-                      <h3>我的设置</h3> 
-                  </div> 
-              </div> 
-            </div> 
-        </div> 
-      </div>
-      <div class="col-md-4">
+                  <li role="presentation"><a href="#Section3" aria-controls="messages" role="tab" data-toggle="tab">我的设置</a></li>
+              </ul>
+              <!-- Tab panes -->
+              <div class="tab-content tabs">
+                  <div role="tabpanel" class="tab-pane fade in active" id="Section1">
+                      <h3>我的影像</h3>
+                  </div>
+                  <div role="tabpanel" class="tab-pane fade" id="Section2">
+                      <h3>我的好友</h3>
+                  </div>
+                  <div role="tabpanel" class="tab-pane fade" id="Section3">
+                      <h3>我的设置</h3>
+                  </div>
+              </div>
+            </div>
+        </div>
 
       </div>
-    </div> 
+      <div class="col-md-4">
+        <div class="page-header"><strong>个人成就</strong></div>
+        <div class="user row">
+          <h4>&nbsp;&nbsp;&nbsp;参与了x次公共编辑</h4>
+          </div>
+          <div class="page-header"><strong>个人成就</strong></div>
+          <table class="table table-striped">
+
+            <tr>
+              <td>关注的话题</td>
+              <td>25</td>
+            </tr>
+            <tr>
+              <td>关注的话题</td>
+              <td>25</td>
+            </tr>
+            <tr>
+              <td>关注的话题</td>
+              <td>25</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 </template>
@@ -58,6 +97,13 @@ export default {
 <style scoped>
 #user_page,#user_page .jumbotron{
   background: linear-gradient(#35455e, #35455e 70%);
+}
+#user_page .form-group{
+  margin: 5px;
+}
+#user_page .container{
+  padding:auto auto auto 0;
+  margin:auto auto auto 0;
 }
 .panel{
   background-color:#EECFA1;
