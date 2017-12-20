@@ -1,5 +1,13 @@
 <template>
   <div id="discover" class="container wow fadeInLeft" data-wow-offset="0" data-wow-delay="0.4s">
+    <div class="container">
+      <div class="types row">
+        <div class="type "><a class="thumbnail"><img src="../assets/food8.jpeg"></a><a class="follow btn"><span class="fa fa-plus fa-lg"></span></a><p>唯有美食不可辜负</p></div>
+        <div class="type "><a class="thumbnail"><img src="../assets/animal8.jpg"></a><a class="follow btn"><span class="fa fa-plus fa-lg"></span></a><p>发现你身边有多少喵星人</p></div>
+        <div class="type "><a class="thumbnail"><img src="../assets/landscape8.jpeg"></a><a class="follow btn"><span class="fa fa-plus fa-lg"></span></a><p>生活本无趣，光影挽流年</p></div>
+        <div class="type"><a class="thumbnail"><img src="../assets/movie8.jpg"></a><a class="follow btn"><span class="fa fa-plus fa-lg"></span></a><p>走进电影世界，听镜头说故事</p></div>
+      </div>
+    </div>
     <div class="tab" role="tabpanel">
         <!-- Nav tabs -->
         <ul class="nav nav-tabs" role="tablist">
@@ -70,8 +78,40 @@ export default {
 <style scoped>
 #discover{
   width: 100%;
-  padding:30px;
+  padding:150px 30px 30px 30px;
   background-color: #FFF;
+}
+#discover .types .type{
+  display: inline-block;
+  position: relative;
+  height:160px;
+  width: 210px;
+  border-radius: 10px;
+  margin-left: 60px;
+  border:none;
+  background:rgba(100,100,100,0.1);
+}
+#discover .types .type .thumbnail{
+  position: absolute;
+  padding:0px;
+  height:70px;
+  width:70px;
+  top:-30px;
+  left:70px;;
+}
+#discover .types .type p{
+  position: absolute;
+  padding:0px 40px 0px 40px;
+  top:60px;
+}
+#discover .types .follow{
+  position: absolute;
+  width: 80px;
+  top:110px;
+  left:65px;
+  border-radius: 20px;
+  background: #CD3700;
+  color: #fff;
 }
 #discover h1{
   padding-top: 50px;

@@ -7,20 +7,20 @@
 	          <p>在这里<em>发现</em> 你想看到的每一处景色.</p>
 	        </div><!-- /.welcome-message -->
 	      </div>
-		  <div class="left-section col-md-8">
+		  <div class="left-section col-md-9">
 		      <div class="page-header"><strong>探索</strong></div>
 		      <div class="image col-md-6">
-		      	<a class="thumbnail"><img src="../assets/user/icon8.jpg"></a>
-		      	<a class="thumbnail"><img src="../assets/user/icon12.jpg"></a>
-		      	<a class="thumbnail"><img src="../assets/user/icon6.jpg"></a>
+		      	<a class="thumbnail"><img src="../assets/user/user-21.jpg"></a>
+		      	<a class="thumbnail"><img src="../assets/user/user-22.jpg"></a>
+		      	<a class="thumbnail"><img src="../assets/user/user-23.jpg"></a>
 		      </div>
 		      <div class="image col-md-6">
-		      	<a class="thumbnail"><img src="../assets/user/icon9.jpg"></a>
-		      	<a class="thumbnail"><img src="../assets/user/icon10.jpg"></a>
-		      	<a class="thumbnail"><img src="../assets/user/icon11.jpeg"></a>
+		      	<a class="thumbnail"><img src="../assets/user/user-24.png"></a>
+		      	<a class="thumbnail"><img src="../assets/user/user-25.gif"></a>
+		      	<a class="thumbnail"><img src="../assets/user/user-26.jpeg"></a>
 		      </div>
 	      </div>
-	      <div class="right-section col-md-4">
+	      <div class="right-section col-md-3">
 	      	<div class="page-header"><strong>为你推荐</strong></div>
 	      	<div class="user row">
 	      		<a class="thumbnail col-md-3"><img src="../assets/user/icon1.jpg"></a>

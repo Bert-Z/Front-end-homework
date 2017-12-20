@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
 import navbar from '@/components/navbar'
 import welcome from '@/components/welcome'
 import discover from '@/components/discover'
