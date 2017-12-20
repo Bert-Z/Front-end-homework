@@ -15,13 +15,13 @@
 	      <div class="navbar-collapse collapse">
 	        <ul class="nav navbar-nav navbar-right">
 	          <li class="active">
-				<a href="#welcome"><span class="fa fa-home fa-lg" aria-hidden="true"></span></a></li>
+				<a href="welcome"><span class="fa fa-home fa-lg" aria-hidden="true"></span></a></li>
 	          <li>
-				<a href="#discover"><span class="fa fa-compass fa-lg" aria-hidden="true"></span></a></li>
+				<a href="discover"><span class="fa fa-compass fa-lg" aria-hidden="true"></span></a></li>
 	          <li>
-				<a href="#share"><span class="fa fa-envelope fa-lg" aria-hidden="true"></span></a></li>
+				<a href="share"><span class="fa fa-envelope fa-lg" aria-hidden="true"></span></a></li>
 			  <li>
-				<a href="#user"><span class="fa fa-user fa-lg" aria-hidden="true"></span></a></li>
+				<a href="user"><span class="fa fa-user fa-lg" aria-hidden="true"></span></a></li>
 	        </ul>
 	      </div><!--/.nav-collapse -->
 	    </div><!--/.container -->
@@ -38,13 +38,18 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.navbar .container .navbar-header a{
+	color: #CD3700;
+	font-size:24px;
+}
 .navbar .container{
 	width:100%;
 	padding-left: 40px;
 	margin-right:0px;
 	background-color: #fff;
 	color: #fff;
-	border-bottom: 1px solid #EECFA1;
+	border-bottom: 1px solid #EBEBEB;
+	box-shadow: none;
 }
 .navbar .container .navbar-collapse ul li{
 	padding-right: 50px;
@@ -53,6 +58,7 @@ export default {
 	margin-top: 5px;
 	padding:10px 20px 10px 20px;
 	border-radius:5px;
+	box-shadow: none;
 }
 .navbar-fixed-top .navbar-nav > .active > a,
 .navbar-fixed-top .navbar-nav > .active > a:hover,
@@ -60,8 +66,8 @@ export default {
 .navbar-fixed-top .navbar-nav > .open > a,
 .navbar-fixed-top .navbar-nav > .open > a:hover,
 .navbar-fixed-top .navbar-nav > .open > a:focus{
-    background: #908a78;
-    color:#fff;
+    color:#EE4000;
+    background: #fff;
 }
 .btn:focus{
 	outline: none;

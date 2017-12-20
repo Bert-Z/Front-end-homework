@@ -1,13 +1,13 @@
 <template>
 	<div id="welcome">
 		<div class="container">
+		  <div class="jumbotron">
+	        <div class="welcome-message">
+	          <h1>你为何而来？</h1>
+	          <p>在这里<em>发现</em> 你想看到的每一处景色.</p>
+	        </div><!-- /.welcome-message -->
+	      </div>
 		  <div class="left-section col-md-8">
-			  <div class="jumbotron">
-		        <div class="welcome-message">
-		          <h1>你为何而来？</h1>
-		          <p>在这里<em>发现</em> 你想看到的每一处景色.</p>
-		        </div><!-- /.welcome-message -->
-		      </div>
 		      <div class="page-header"><strong>探索</strong></div>
 		      <div class="image col-md-6">
 		      	<a class="thumbnail"><img src="../assets/user/icon8.jpg"></a>
@@ -76,13 +76,17 @@ export default {
 <style scoped>
 #welcome{
 	margin-top: 30px;
-	background-color: #f3f3f3;
+	background-color: #FFF;
 }
 #welcome .container .jumbotron{
-	margin-top: 50px;
+	margin-top: 0px;
 	background: #191919 url('../../static/img/welcome-background.jpg') center center no-repeat;
 	background-size: 100% 100%;
 	position: relative;
+	height: 300px;
+	margin-left: 120px;
+	margin-right: 120px ;
+	margin-bottom:0px;
 }
 
 #welcome .container .left-section .image a,
@@ -97,9 +101,9 @@ export default {
 #welcome .container .welcome-message {
 	background-color: rgba(255,255,255,0.4); // translucent overlay
 	position: absolute;
-	top: 300px;
+	top: 100px;
 	left: 0;
-	padding: 50px 0px 50px 50px;
+	padding: 20px 0px 20px 50px;
 	margin: 0px 0px 0px 0px ;
 }
 #welcome .container .user a {

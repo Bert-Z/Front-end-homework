@@ -89,12 +89,14 @@
 </template>
 
 <script >
+import imgmsg from './imgmsg.vue'
 export default {
   name: 'waterfall',
   data () {
       return {
       }
-    }
+  },
+  components:{imgmsg}
 }
 
 </script>
