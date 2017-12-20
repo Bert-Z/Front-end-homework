@@ -28,7 +28,7 @@
             <h4>&nbsp;&nbsp;&nbsp;</h4>
             <h4>&nbsp;&nbsp;&nbsp;</h4>
             <h4>&nbsp;&nbsp;&nbsp;</h4>
-            <button class="btn btn-success" ><span class="fa fa-edit fa-lg " aria-hidden="true"></span></button>
+            <button class="btn btn-danger" ><span class="fa fa-edit fa-lg " aria-hidden="true"></span></button>
           </div>
         </div>
       </div>
@@ -108,6 +108,10 @@ export default {
 </script>
 
 <style scoped>
+#user_message1{
+  margin-top: 50px;
+  padding-top: 30px;
+}
 #user_message1,#user_message2,#user_message3{
   background:#fff;
 }
@@ -144,31 +148,33 @@ a:hover,a:focus{
 }
 .tab .nav-tabs li a{
   display: block;
-  height: 70px;
+  outline: none;
+  height: 50px;
   line-height: 65px;
-  background: linear-gradient(165deg, transparent 29%, #2C3E50 30%);
   font-size: 15px;
   font-weight: 600;
-  color:#fff;
+  color: #B5B5B5;
   text-transform: uppercase;
   margin-right: 0;
-  border-radius: 0;
-  border: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #D3D3D3;
   position: relative;
-  transition: all 0.5s ease 0s;
+  padding:0px 20px 60px 20px;
+  transition: all 0.3s ease 0s;
 }
 .tab .nav-tabs li.active a,.tab .nav-tabs li a:hover{
-  background: linear-gradient(165deg, transparent 29%, #3498DB 30%);
-  border: none;
-  color: #2C3E50;
+  outline: none;
+  color: #6B6B6B;
+  background:#FFF;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #6B6B6B;
 }
 .tab .nav-tabs li a:before{
-  content: "";height: 70px;
-  line-height: 90px;
-  border-bottom: 70px solid rgba(0, 0, 0, 0.1);
-  border-right: 10px solid transparent;
-  position: absolute;top: 0;left: 100%;
-  z-index: 1;
+  border: none;
 }
 .tab .nav-tabs li:last-child a:before{
   border: none;
@@ -178,7 +184,7 @@ a:hover,a:focus{
   font-size: 14px;
   color: #6f6c6c;
   line-height: 26px;
-  background: repeating-linear-gradient(120deg, #19B5FE, #DADFE1);
+  background: #fff;
   padding: 20px;
 }
 .tab .tab-content h3{
