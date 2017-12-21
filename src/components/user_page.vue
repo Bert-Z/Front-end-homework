@@ -15,8 +15,11 @@
             <form class="form-horizontal">
               <div class="form-group">
                 <span class="glyphicon glyphicon-education" aria-hidden="true"></span>
-                <label>SJTU&nbsp;&nbsp;</label>
+                <label>学校：SJTU&nbsp;&nbsp;</label>
                 <label>|&nbsp;&nbsp;&nbsp;性别:&nbsp;  <span class="fa fa-mars" aria-hidden="true"></span></label>
+                <label>|&nbsp;&nbsp;&nbsp;年龄:18&nbsp;</label>
+                <label>|&nbsp;&nbsp;&nbsp;职业:学生&nbsp;</label>
+                <label>|&nbsp;&nbsp;&nbsp;所在地:上海&nbsp;</label>
               </div>
               <div class="form-group">
                 <label>一句话介绍:&nbsp;&nbsp;  </label>
@@ -38,10 +41,8 @@
         <div class="user-content"  >
             <div class="tab" role="tabpanel">
               <ul class="nav nav-tabs" role="tablist">
-                  <li role="presentation" class="active"><a href="#Section1" aria-controls="home" role="tab" data-toggle="tab">好友动态</a></li>
-                  <li role="presentation"><a href="#Section2" aria-controls="profile" role="tab" data-toggle="tab">我的回答</a></li>
-                  <li role="presentation"><a href="#Section3" aria-controls="messages" role="tab" data-toggle="tab">我的提问</a></li>
-                  <li role="presentation"><a href="#Section4" aria-controls="messages" role="tab" data-toggle="tab">我的关注</a></li>
+                  <li role="presentation" class="active"><a href="#Section1" aria-controls="home" role="tab" data-toggle="tab">我的动态</a></li>
+                  <li role="presentation"><a href="#Section4" aria-controls="messages" role="tab" data-toggle="tab">我的关注主题</a></li>
                   <li role="presentation"><a href="#Section5" aria-controls="messages" role="tab" data-toggle="tab">好友信息</a></li>
               </ul>
               <!-- Tab panes -->
@@ -50,13 +51,7 @@
                       <h3>动态</h3>
                   </div>
                   <div role="tabpanel" class="tab-pane fade" id="Section2">
-                      <h3>回答</h3>
-                  </div>
-                  <div role="tabpanel" class="tab-pane fade" id="Section3">
-                      <h3>提问</h3>
-                  </div>
-                  <div role="tabpanel" class="tab-pane fade" id="Section4">
-                      <h3>关注</h3>
+                      <h3>关注主题</h3>
                   </div>
                   <div role="tabpanel" class="tab-pane fade" id="Section5">
                       <h3>好友</h3>
@@ -75,16 +70,16 @@
         </ul>
       </div>
         <div class="page-header"><strong>个人成就</strong></div>
-          <h4><span class="fa fa-pencil-square" aria-hidden="true"></span>&nbsp;参与了x次公共编辑</h4>
+          <h4><span class="fa fa-pencil-square" aria-hidden="true"></span>&nbsp;发布了X次动态</h4>
           <h4><span class="fa fa-star" aria-hidden="true"></span>&nbsp;被x名用户关注</h4>
           <div class="page-header"><strong>我的关注</strong></div>
               <table class="table">
                 <tr>
-                  <td>关注的话题</td>
+                  <td>关注的主题</td>
                   <td>25</td>
                 </tr>
                 <tr>
-                  <td>关注的收藏夹</td>
+                  <td>被多少用户关注</td>
                   <td>13</td>
                 </tr>
                 <tr>
@@ -161,7 +156,7 @@ a:hover,a:focus{
   border-right: none;
   border-bottom: 1px solid #D3D3D3;
   position: relative;
-  padding:0px 20px 60px 20px;
+  padding:0px 20px 77px 20px;
   transition: all 0.3s ease 0s;
 }
 .tab .nav-tabs li.active a,.tab .nav-tabs li a:hover{
