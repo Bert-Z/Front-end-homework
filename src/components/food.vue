@@ -9,8 +9,14 @@
         </div>
         <img src="../assets/food1.jpg" alt="Customer Photo1">
         <div class="caption">
-          <blockquote class="description"><p> 这是一幅食品的图片.</p></blockquote>
-          <p class="reviewer">用户名</p>
+          <div class="reviewer row">
+            <a class="user-icon col-md-1 thumbnail"><img src="../assets/user/icon1.jpg"></a>
+            <a class="user-name col-md-2"><strong>Esdeath</strong></a>
+            <div class="user-label label label-default">FOOD</div>
+            <div class="label label-primary">MOVIES</div>
+            <div class="label label-success">ANIMAL</div>
+          </div>
+          <p class="description"> 晴天美食 和好盆友 均不可辜负 十二月你好</p>
         </div><!-- /.caption -->
       </div><!-- /.hreview -->
       <div class="food review-item-2 thumbnail ">
@@ -83,6 +89,23 @@
           <p class="reviewer">用户名</p>
         </div><!-- /.caption -->
       </div><!-- /.hreview -->
+      <div class="food review-item-1 thumbnail">
+        <div class="comment text-center">
+          <span class="fa fa-heart fa-lg" style="margin-right:100px"></span>
+          <span class="fa fa-commenting fa-lg"></span>
+        </div>
+        <img src="../assets/food8.jpeg" alt="Customer Photo1">
+        <div class="caption">
+          <div class="reviewer row">
+            <a class="user-icon col-md-1 thumbnail"><img src="../assets/user/icon1.jpg"></a>
+            <a class="user-name col-md-2"><strong>Esdeath</strong></a>
+            <div class="user-label label label-default">FOOD</div>
+            <div class="label label-primary">MOVIES</div>
+            <div class="label label-success">ANIMAL</div>
+          </div>
+          <p class="description"> 晴天美食 和好盆友 均不可辜负 十二月你好</p>
+        </div><!-- /.caption -->
+      </div><!-- /.hreview -->
       </div>
     </div><!-- /.reviews -->
   </div>
@@ -105,48 +128,55 @@ export default {
 .waterfall .reviews .col-md-4 .food{
     position: relative;
     padding: 0px;
+    border-radius: 30px;
     border: none;
+    background: #FFF;
 }
 .waterfall .reviews .col-md-4 .food .comment{
     display: none;
 }
 .waterfall .reviews .col-md-4 .food:hover .comment{
     display: block;
+    width: 100%;
     position: absolute;
     background-color:rgba(0,0,0,0.6);
     top:0px;
-    left:10px;
-    right: 10px;
+    left:0px;
     padding:10px;
     color: #fff;
 }
 .waterfall .reviews .col-md-4 .food .caption {
-    position: absolute;
-    top: auto;
-    left: 10px;
-    right: 10px;
-    bottom: 0;
     line-height: 1.1;
-    background: rgba(0,0,0,0.5);
+    background-color:#FFF;
 }
-.waterfall .reviews .col-md-4 .food blockquote,.reviewer {
-      margin: 0 6px;
-      padding: 0;
-}
-.waterfall .reviews..col-md-4 .food blockquote {
+.waterfall .reviews..col-md-4 .food .caption .description {
       margin-top: 4px;
+      padding: 0;
       border: none;
 }
 p{
-  color: #fff;
+  color: #6B6B6B;
   font-size: 14px;
 }
 .waterfall .reviews .col-md-4 .food .reviewer {
       margin-top: 2px;
       margin-bottom: 4px;
       text-align: right;
-      color: #fff;
+      height: 50px;
+      font-size: 12px;
 }
 
-
+.waterfall .reviews .col-md-4 .food .caption .reviewer .user-icon{
+  padding: 0px;
+}
+.waterfall .reviews .col-md-4 .food .caption .reviewer .user-name{
+  text-decoration: none;
+  font-size: 16px;
+  color:#6B6B6B;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.waterfall .reviews .col-md-4 .food .caption .reviewer .description{
+  padding-left: 0px;
+}
 </style>
