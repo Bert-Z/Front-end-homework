@@ -14,14 +14,12 @@
 			</form>
 	      <div class="navbar-collapse collapse">
 	        <ul class="nav navbar-nav navbar-right">
-	          <li class="active">
-				<a href="#welcome"><span class="fa fa-home fa-lg" aria-hidden="true"></span></a></li>
+	          <li class='active'>
+				<a href="../../index.html"><span class="fa fa-home fa-lg" aria-hidden="true"></span></a></li>
 	          <li>
-				<a href="#discover"><span class="fa fa-compass fa-lg" aria-hidden="true"></span></a></li>
+				<a href="../../discover.html"><span class="fa fa-compass fa-lg" aria-hidden="true"></span></a></li>
 	          <li>
-				<a href="#share"><span class="fa fa-envelope fa-lg" aria-hidden="true"></span></a></li>
-			  <li>
-				<a href="#user"><span class="fa fa-user fa-lg" aria-hidden="true"></span></a></li>
+				<a href="../../user_page.html"><span class="fa fa-user fa-lg" aria-hidden="true"></span></a></li>
 	        </ul>
 	      </div><!--/.nav-collapse -->
 	    </div><!--/.container -->
