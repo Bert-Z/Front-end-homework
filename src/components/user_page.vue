@@ -41,19 +41,23 @@
         <div class="user-content"  >
             <div class="tab" role="tabpanel">
               <ul class="nav nav-tabs" role="tablist">
-                  <li role="presentation" class="active"><a href="#Section1" aria-controls="home" role="tab" data-toggle="tab">我的动态</a></li>
-                  <li role="presentation"><a href="#Section4" aria-controls="messages" role="tab" data-toggle="tab">我的关注主题</a></li>
-                  <li role="presentation"><a href="#Section5" aria-controls="messages" role="tab" data-toggle="tab">好友信息</a></li>
+                  <li role="presentation" class="active"><a href="#Section1" aria-controls="home" role="tab" data-toggle="tab"><span class="fa fa-lg fa-pencil-square"></span></a></li>
+                  <li role="presentation"><a href="#Section2" aria-controls="messages" role="tab" data-toggle="tab">我的动态</a></li>
+                  <li role="presentation"><a href="#Section3" aria-controls="messages" role="tab" data-toggle="tab">我的关注主题</a></li>
+                  <li role="presentation"><a href="#Section4" aria-controls="messages" role="tab" data-toggle="tab">好友信息</a></li>
               </ul>
               <!-- Tab panes -->
               <div class="tab-content tabs">
                   <div role="tabpanel" class="tab-pane fade in active" id="Section1">
-                      <h3>动态</h3>
+                      <form_box/>
                   </div>
                   <div role="tabpanel" class="tab-pane fade" id="Section2">
+                      <h3>动态</h3>
+                  </div>
+                  <div role="tabpanel" class="tab-pane fade" id="Section3">
                       <h3>关注主题</h3>
                   </div>
-                  <div role="tabpanel" class="tab-pane fade" id="Section5">
+                  <div role="tabpanel" class="tab-pane fade" id="Section4">
                       <h3>好友</h3>
                   </div>
               </div>
@@ -94,11 +98,13 @@
 </div>
 </template>
 <script>
+import form_box from './form_box.vue'
 export default {
   name:'user_page',
   date(){
 
   },
+  components:{form_box},
 }
 </script>
 
@@ -156,7 +162,7 @@ a:hover,a:focus{
   border-right: none;
   border-bottom: 1px solid #D3D3D3;
   position: relative;
-  padding:0px 20px 77px 20px;
+  padding:0px 20px 60px 20px;
   transition: all 0.3s ease 0s;
 }
 .tab .nav-tabs li.active a,.tab .nav-tabs li a:hover{
@@ -175,7 +181,7 @@ a:hover,a:focus{
   border: none;
 }
 .tab .tab-content{
-  height: 400px;
+  height: 420px;
   font-size: 14px;
   color: #6f6c6c;
   line-height: 26px;
