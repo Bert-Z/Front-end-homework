@@ -26,8 +26,14 @@
         </div>
         <img src="../assets/food2.jpg" alt="Customer Photo2">
         <div class="caption">
-          <blockquote class="description"><p> 这是一幅食品的图片.</p></blockquote>
-          <p class="reviewer">用户名</p>
+          <div class="reviewer row">
+            <a class="user-icon col-md-1 thumbnail"><img src="../assets/user/icon8.jpg"></a>
+            <a class="user-name col-md-2"><strong>Esdeath</strong></a>
+            <div class="user-label label label-default">FOOD</div>
+            <div class="label label-primary">MOVIES</div>
+            <div class="label label-success">ANIMAL</div>
+          </div>
+          <p class="description"> 晴天美食 和好盆友 均不可辜负 十二月你好</p>
         </div><!-- /.caption -->
       </div><!-- /.hreview -->
       <div class="food review-item-3 thumbnail ">
@@ -37,8 +43,14 @@
         </div>
         <img src="../assets/food3.jpg" alt="Customer Photo3">
         <div class="caption">
-          <blockquote class="description"><p> 这是一幅食品的图片.</p></blockquote>
-          <p class="reviewer">用户名</p>
+          <div class="reviewer row">
+            <a class="user-icon col-md-1 thumbnail"><img src="../assets/user/icon7.jpg"></a>
+            <a class="user-name col-md-2"><strong>Esdeath</strong></a>
+            <div class="user-label label label-default">FOOD</div>
+            <div class="label label-primary">MOVIES</div>
+            <div class="label label-success">ANIMAL</div>
+          </div>
+          <p class="description"> 晴天美食 和好盆友 均不可辜负 十二月你好</p>
         </div><!-- /.caption -->
       </div><!-- /.hreview -->
       </div>
@@ -50,8 +62,14 @@
         </div>
         <img src="../assets/food4.jpg" alt="Customer Photo4">
         <div class="caption">
-          <blockquote class="description"><p> 这是一幅食品的图片.</p></blockquote>
-          <p class="reviewer">用户名</p>
+          <div class="reviewer row">
+            <a class="user-icon col-md-1 thumbnail"><img src="../assets/user/icon6.jpg"></a>
+            <a class="user-name col-md-2"><strong>Esdeath</strong></a>
+            <div class="user-label label label-default">FOOD</div>
+            <div class="label label-primary">MOVIES</div>
+            <div class="label label-success">ANIMAL</div>
+          </div>
+          <p class="description"> 晴天美食 和好盆友 均不可辜负 十二月你好</p>
         </div><!-- /.caption -->
       </div><!-- /.hreview -->
       <div class="food review-item-5 thumbnail ">
@@ -61,8 +79,14 @@
         </div>
         <img src="../assets/food5.jpg" alt="Customer Photo5">
         <div class="caption">
-          <blockquote class="description"><p> 这是一幅食品的图片.</p></blockquote>
-          <p class="reviewer">用户名</p>
+          <div class="reviewer row">
+            <a class="user-icon col-md-1 thumbnail"><img src="../assets/user/icon5.jpg"></a>
+            <a class="user-name col-md-2"><strong>Esdeath</strong></a>
+            <div class="user-label label label-default">FOOD</div>
+            <div class="label label-primary">MOVIES</div>
+            <div class="label label-success">ANIMAL</div>
+          </div>
+          <p class="description"> 晴天美食 和好盆友 均不可辜负 十二月你好</p>
         </div><!-- /.caption -->
       </div><!-- /.hreview -->
       <div class="food review-item-6 thumbnail ">
@@ -72,8 +96,14 @@
         </div>
         <img src="../assets/food6.jpg" alt="Customer Photo6">
         <div class="caption">
-          <blockquote class="description"><p> 这是一幅食品的图片.</p></blockquote>
-          <p class="reviewer">用户名</p>
+          <div class="reviewer row">
+            <a class="user-icon col-md-1 thumbnail"><img src="../assets/user/icon4.png"></a>
+            <a class="user-name col-md-2"><strong>Esdeath</strong></a>
+            <div class="user-label label label-default">FOOD</div>
+            <div class="label label-primary">MOVIES</div>
+            <div class="label label-success">ANIMAL</div>
+          </div>
+          <p class="description"> 晴天美食 和好盆友 均不可辜负 十二月你好</p>
         </div><!-- /.caption -->
       </div><!-- /.hreview -->
       </div>
@@ -85,8 +115,14 @@
         </div>
         <img src="../assets/food7.jpg" alt="Customer Photo7">
         <div class="caption">
-          <blockquote class="description"><p> 这是一幅食品的图片.</p></blockquote>
-          <p class="reviewer">用户名</p>
+          <div class="reviewer row">
+            <a class="user-icon col-md-1 thumbnail"><img src="../assets/user/icon3.jpg"></a>
+            <a class="user-name col-md-2"><strong>Esdeath</strong></a>
+            <div class="user-label label label-default">FOOD</div>
+            <div class="label label-primary">MOVIES</div>
+            <div class="label label-success">ANIMAL</div>
+          </div>
+          <p class="description"> 晴天美食 和好盆友 均不可辜负 十二月你好</p>
         </div><!-- /.caption -->
       </div><!-- /.hreview -->
       <div class="food review-item-1 thumbnail">
@@ -97,7 +133,7 @@
         <img src="../assets/food8.jpeg" alt="Customer Photo1">
         <div class="caption">
           <div class="reviewer row">
-            <a class="user-icon col-md-1 thumbnail"><img src="../assets/user/icon1.jpg"></a>
+            <a class="user-icon col-md-1 thumbnail"><img src="../assets/user/icon2.jpg"></a>
             <a class="user-name col-md-2"><strong>Esdeath</strong></a>
             <div class="user-label label label-default">FOOD</div>
             <div class="label label-primary">MOVIES</div>
