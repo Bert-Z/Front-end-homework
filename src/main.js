@@ -7,7 +7,7 @@ import navbar from './components/navbar'
 import welcome from './components/welcome'
 import discover from './components/discover'
 import user_page from './components/user_page'
-
+import form_box from './components/form_box.vue'
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
@@ -29,3 +29,4 @@ new Vue({
 	template:'<welcome/>',
 	components:{welcome}
 })
+
