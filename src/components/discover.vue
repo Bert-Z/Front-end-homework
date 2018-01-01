@@ -11,9 +11,9 @@
     <div class="tab" role="tabpanel">
         <!-- Nav tabs -->
         <ul class="nav nav-tabs" role="tablist">
-            <li role="presentation" class="active"><a href="#landscape"  role="tab" data-toggle="tab"><span class="icon fa fa-lg fa-graduation-cap"></span> 我的大学</a></li>
-            <li role="presentation"><a href="#landscape"  role="tab" data-toggle="tab"><span class="icon fa fa-lg fa-users"></span> 我的同行</a></li>
-            <li role="presentation"><a href="#animal"  role="tab" data-toggle="tab"><span class="icon fa fa-lg fa-map-marker"></span> 我的附近</a></li>
+            <li role="presentation" class="active"><a href="#food"  role="tab" data-toggle="tab"><span class="icon fa fa-lg fa-graduation-cap"></span> 我的大学</a></li>
+            <li role="presentation"><a href="#food"  role="tab" data-toggle="tab"><span class="icon fa fa-lg fa-users"></span> 我的同行</a></li>
+            <li role="presentation"><a href="#food"  role="tab" data-toggle="tab"><span class="icon fa fa-lg fa-map-marker"></span> 我的附近</a></li>
             <li role="presentation"><a href="#food"  role="tab" data-toggle="tab"><span class="icon fa fa-lg fa-spoon"></span></a></li>
             <li role="presentation"><a href="#movie" role="tab" data-toggle="tab"><span class="icon fa fa-lg fa-caret-square-o-right"></span></a></li>
             <li role="presentation"><a href="#animal" role="tab" data-toggle="tab"><span class="icon fa fa-lg fa-github"></span></a></li>
